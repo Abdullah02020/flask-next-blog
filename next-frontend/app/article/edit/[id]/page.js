@@ -1,13 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useRouter, useParams } from "next/navigation"; // استخدام useParams بدلاً من params
+import { useRouter, useParams } from "next/navigation";
 
 export default function EditArticlePage() {
   const [title, setTitle] = useState("");
   const [suptitle, setSuptitle] = useState("");
   const [content, setContent] = useState("");
   const router = useRouter();
-  const params = useParams(); // فك القيم من useParams
+  const params = useParams(); //
 
   useEffect(() => {
     async function fetchArticle() {

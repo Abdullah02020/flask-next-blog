@@ -23,6 +23,12 @@ export default function Navbar() {
             >
               Admin
             </Link>
+            <Link
+              href="/article/new"
+              className="hover:text-blue-700 hover:scale-125 transition duration-300"
+            >
+              New
+            </Link>
           </div>
         </div>
       </div>
